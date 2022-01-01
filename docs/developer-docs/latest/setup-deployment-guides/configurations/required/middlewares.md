@@ -78,6 +78,7 @@ Middlewares can have an optional configuration with the following parameters:
 | Parameter | Description                                                       | Type    |
 | --------- | ----------------------------------------------------------------- | ------- |
 | `config`  | Used to define or override the middleware configuration           | Object  |
+| `name`    | Used to override an internal middleware                           | String  |
 | `resolve` | Path to the middleware's folder (useful for external middlewares) | String  |
 
 ## Internal middlewares configuration reference
